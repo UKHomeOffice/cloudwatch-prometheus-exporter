@@ -11,4 +11,6 @@ $ docker run -d \
              -v $(pwd)/config.yml:/config/config.yml prom/cloudwatch-exporter
 $ curl localhost:9106/metrics
 ```
-
+## TODO
+* Create Kubernetes deployment/configmap resource YAML
+* Enabled automated build to an image registry
